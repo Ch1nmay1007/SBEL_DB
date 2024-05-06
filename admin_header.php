@@ -18,12 +18,12 @@
     
 <header><div class="mainlogo">
         <div class="logo">
-            <a href="admin_index.php"><span>Bookflix &</span>
-            <span class="me">Chill</span></a>
-        </div><p>Admin Pannel</p></div>
+            <a href="admin_index.php"><span>Lace </span>
+            <span class="me">Lounge</span></a>
+        </div><p>Admin Panel</p></div>
         <div class="nav">
             <a href="admin_index.php">Home</a>
-            <a href="add_books.php">Add Books</a>
+            <a href="add_books.php">Add Shoes</a>
             <a href="admin_orders.php">Orders</a>
             <a href="message_admin.php">Message</a>
             <a href="users_detail.php">Users</a>

@@ -30,7 +30,7 @@ $msgcount = mysqli_num_rows( $msg_no );
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/admin.css" />
-    <title>Bookflix & Chill Admin</title>
+    <title>Lace Lounge Admin</title>
   </head>
 
   <body >
@@ -94,15 +94,15 @@ $msgcount = mysqli_num_rows( $msg_no );
         </div>
       </div>
       <div class="card" style="width: 15rem">
-        <img class="card-img-top" src="./images/nu. books.png" alt="Card image cap" />
+        <img class="card-img-top" src="./images/nu.%20books.png" alt="Card image cap" />
         <div class="card-body">
-          <h5 class="card-title">Number Of Books Available</h5>
+          <h5 class="card-title">Number Of Shoes Available</h5>
           <p class="card-text">
           <?php echo $bookscount; ?>
           </p>
           <div class="buttons" style="display: flex;">
-          <a href="total_books.php" class="btn btn-primary">See Books</a>
-          <a href="add_books.php" class="btn btn-primary">Add Books</a>
+          <a href="total_books.php" class="btn btn-primary">See Shoes</a>
+          <a href="add_books.php" class="btn btn-primary">Add Shoes</a>
           </div>
         </div>
       </div>

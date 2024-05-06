@@ -93,7 +93,7 @@ if(isset($_POST['update_product'])){
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/register.css">
-  <title>Add Books</title>
+  <title>Add Shoes</title>
 </head>
 
 <body>
@@ -111,10 +111,10 @@ if(isset($_POST['update_product'])){
   }
   ?>
   
-<a class="update_btn" style="position: fixed ; z-index:100;" href="total_books.php">See All Books</a>
+<a class="update_btn" style="position: fixed ; z-index:100;" href="total_books.php">See ll Shoes</a>
   <div class="container_box">
     <form action="" method="POST" enctype="multipart/form-data">
-      <h3>Add Books To <a href="index.php"><span>Bookflix & </span><span>Chill</span></a></h3>
+      <h3>Add Shoes To <a href="index.php"><span>Lace </span><span>Lounge</span></a></h3>
       <input type="text" name="bname" placeholder="Enter book Name" class="text_field ">
       <input type="text" name="btitle" placeholder="Enter Author name" class="text_field">
       <input type="number" min="0" name="price" class="text_field" placeholder="enter product price">

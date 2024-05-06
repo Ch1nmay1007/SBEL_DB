@@ -70,7 +70,7 @@ if(isset($_POST['update_product'])){
     }
   }
   ?>
-<a class="update_btn" style="position: fixed ; z-index:100;" href="add_books.php">Add More Books</a>
+<a class="update_btn" style="position: fixed ; z-index:100;" href="add_books.php">Add More Shoes</a>
 
 <section class="edit-product-form">
    <?php
@@ -117,7 +117,7 @@ if(isset($_POST['update_product'])){
       ?>
       <div class="box">
          <img class="books_images" src="added_books/<?php echo $fetch_book['image']; ?>" alt="">
-         <div class="name">Aurthor: <?php echo $fetch_book['title']; ?></div>
+         <div class="name">Brand: <?php echo $fetch_book['title']; ?></div>
          <div class="name">Name: <?php echo $fetch_book['name']; ?></div>
          <div class="price">Price: ₹ <?php echo $fetch_book['price']; ?>/-</div>
          <a href="total_books.php?update=<?php echo $fetch_book['bid']; ?>" class="update_btn">update</a>
